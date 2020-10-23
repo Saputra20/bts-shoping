@@ -1,0 +1,276 @@
+{
+	"id": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+	"name": "bts",
+	"description": "",
+	"order": [
+		"fa6e6d7f-4204-f852-19a1-22e1f09d6a65",
+		"32ce3606-2948-0cc4-ca3e-57a0c5385734",
+		"d1626482-8b3f-ecae-9551-07f01ace37a0",
+		"aed2d170-4cdd-5d79-d0cf-595d5472234e",
+		"d98b5747-d1d5-9170-c0f0-d1d6cb976cd7",
+		"371b485b-4053-f43a-9a0d-1569171a4be2",
+		"43217d2e-93fe-3f01-8985-6ae6cdc233db",
+		"a83696cc-93f5-a571-7b40-1b6a9babca1c"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1603442024524,
+	"owner": "6743756",
+	"public": false,
+	"requests": [
+		{
+			"id": "32ce3606-2948-0cc4-ca3e-57a0c5385734",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/signin",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Signin",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603442052192,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"email\" : \"test@gmail.com\",\n\t\"password\" : \"12345678\"\n}"
+		},
+		{
+			"id": "371b485b-4053-f43a-9a0d-1569171a4be2",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/shopings/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Shoping By Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603442094381,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "43217d2e-93fe-3f01-8985-6ae6cdc233db",
+			"headers": "Content-Type: application/json\nAuthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDM5OTc1LCJleHAiOjE2MDM0NTA3NzV9.jqyBSzoQbXGGCPL0ymCRk9P6U2t8oGTj_xgVPHvAUgA\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDM5OTc1LCJleHAiOjE2MDM0NTA3NzV9.jqyBSzoQbXGGCPL0ymCRk9P6U2t8oGTj_xgVPHvAUgA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/shopings/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Update Shoping By Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603442112702,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\" : \"test 1\"\n}"
+		},
+		{
+			"id": "a83696cc-93f5-a571-7b40-1b6a9babca1c",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDM5OTc1LCJleHAiOjE2MDM0NTA3NzV9.jqyBSzoQbXGGCPL0ymCRk9P6U2t8oGTj_xgVPHvAUgA\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDM5OTc1LCJleHAiOjE2MDM0NTA3NzV9.jqyBSzoQbXGGCPL0ymCRk9P6U2t8oGTj_xgVPHvAUgA",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/shopings/2",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"data": null,
+			"dataMode": "params",
+			"name": "Destroy Shoping By Id",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603442124105,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "aed2d170-4cdd-5d79-d0cf-595d5472234e",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/shopings",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get All Shopings",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603442071403,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d1626482-8b3f-ecae-9551-07f01ace37a0",
+			"headers": "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/users",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get All Users",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603442061428,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d98b5747-d1d5-9170-c0f0-d1d6cb976cd7",
+			"headers": "Content-Type: application/json\nAuthorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJUUllzZXF1ZWxpemUiLCJhdWQiOiJUZXN0IiwiaWF0IjoxNjAzNDQxODczLCJleHAiOjE2MDM0NTI2NzN9.HavpVHG5feSo9IklPbgL4QjQiD1awgfzKMXb0An_Whk",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/shopings",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Store Shoping",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1603442085603,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\" : \"new shoping\"\n}"
+		},
+		{
+			"id": "fa6e6d7f-4204-f852-19a1-22e1f09d6a65",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/api/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603442046263,
+			"name": "Signup",
+			"description": "",
+			"collectionId": "de04e636-6952-e49c-a494-ee1fb4a1f4ef",
+			"responses": [],
+			"rawModeData": "{\n\t\"username\" : \"Test\",\n\t\"email\" : \"test@gmail.com\",\n\t\"password\" : \"12345678\",\n\t\"phone\" : \"12345678\",\n\t\"address\" : \"oksoadasd\",\n\t\"city\" : \"Bandung\",\n\t\"country\" : \"Indonesia\",\n\t\"name\" : \"Test\",\n\t\"postcode\" : \"12345\"\n}"
+		}
+	]
+}
